@@ -4,14 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Website 1</title>
 </head>
 <body>
-    <!--this is a comment-->
-    <h>This is head </h>
-    <p>This is a paragraph
-        <a href=></a>
-    </p>
-    <B>Button</B>
+    <h1>this is a heading</h1>
+    <p>this is a paragraph</p>
+    <!--this is an unorder list-->
+    <ul style="list-style-type: circle square;">
+        <li>basketball</li>
+        <li>football</li>
+    </ul>
+    <!--This is an order list-->
+    <ol type="1">
+        <li>basketball</li>
+        <li>football</li>
+    </ol>
+    <table border ="1">
+        <caption>
+            Favorite and Least Favourite Things
+        </caption>
+        
+        <tr>
+            <th></th>
+            <th></th>
+            <th>Bob</th>
+            <th>Alice</th>
+        </tr>
+        <tr>
+            <td rowspan ="2">Favourite</td>
+            <td>Color</td>
+            <td>Blue</td>
+            <td>Purple</td>
+        </tr>
+        <tr>
+            <td>Flavour</td>
+            <td>Banana</td>
+            <td>Chocolate</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Least Favourite</td>
+            <td>Color</td>
+            <td>Yellow</td>
+            <td>Pink</td>
+        </tr>
+        <tr>
+            <td>Flavor</td>
+            <td>Mint</td>
+            <td>Walnut</td>
+        </tr>
+    </tbody>
+    </table>
+    <br>
+    <form>
+        First name :<input type ="text" name = "first_name" />
+        <br>
+        Last name  : <input type ="text" name = "last_name" />
+    </form>
+    <br>
+    <form>
+        UserID :<input type ="text" name ="User_ID" />
+        <br>
+        Password :<input type ="password" name ="password" />
+    </form>
+    <br>
+    <!--multiple-line text input-->
+    <form>
+        Description : <br />
+        <textarea rows ="5" cols ="50" name ="description" >
+            Enter description here...
+        </textarea>
+    </form>
 </body>
-<a href="mailto:abc.com" >send email</a>
+</html>
