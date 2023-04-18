@@ -1,0 +1,26 @@
+p{
+    color: blue;
+}
+#second{
+    color: red;
+}
+.third{
+    color: brown;
+}
+a:link {
+    color: #FF0000
+}
+a:visited {
+    color: #00FF00;
+}
+a:hover {
+    color: #ff00ff;
+}
+::selection{
+    color: red;
+    background-color: white;
+}
+.main-div h1 {
+    background-color: orange;
+    color: white;
+}
